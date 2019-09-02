@@ -132,6 +132,8 @@ github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd/go.mod h1:6dJ
 github.com/modern-go/reflect2 v1.0.1/go.mod h1:bx2lNnkwVCuqBIxFjflWJWanXIb3RllmbCylyMrvgv0=
 github.com/neelance/astrewrite v0.0.0-20160511093645-99348263ae86/go.mod h1:kHJEU3ofeGjhHklVoIGuVj85JJwZ6kWPaJwCIxgnFmo=
 github.com/neelance/sourcemap v0.0.0-20151028013722-8c68805598ab/go.mod h1:Qr6/a/Q4r9LP1IltGz7tA7iOK1WonHEYhu1HRBA7ZiM=
+github.com/obourdon/cloudresolver v0.0.0-20190824051432-569b2386d5a0 h1:YDKcQVV08QbBKOr6/yyf5N+YBz3+YKIeOqvkQs25e2I=
+github.com/obourdon/cloudresolver v0.0.0-20190824051432-569b2386d5a0/go.mod h1:h6ULfzlNjdghJQXywCM+ds1X2rSbflAY/FPRjb4094k=
 github.com/openzipkin/zipkin-go v0.1.1/go.mod h1:NtoC/o8u3JlF1lSlyPNswIbeQH9bJTmOf0Erfk+hxe8=
 github.com/pelletier/go-toml v1.2.0 h1:T5zMGML61Wp+FlcbWjRDT7yAxhJNAiPPLOFECq181zc=
 github.com/pelletier/go-toml v1.2.0/go.mod h1:5z9KED0ma1S8pY6P1sdut58dfprrGBbd/94hg7ilaic=
@@ -186,8 +188,6 @@ github.com/spf13/pflag v1.0.3/go.mod h1:DYY7MBk1bdzusC3SYhjObp+wFpr4gzcvqqNjLnIn
 github.com/spf13/viper v1.3.1 h1:5+8j8FTpnFV4nEImW/ofkzEt8VoOiLXxdYIDsB73T38=
 github.com/spf13/viper v1.3.1/go.mod h1:ZiWeW+zYFKm7srdB9IoDzzZXaJaI5eL9QjNiN/DMA2s=
 github.com/squarescale/cloudresolver v0.0.0-20190213222711-726cca2c26cc/go.mod h1:HDQQ5DqN0NstyoY+b870lVfSaLW5hZRg0udFYDpJ+gw=
-github.com/squarescale/cloudresolver v0.0.0-20190824051432-de3eece6ac93 h1:qk2XwIk8ql02MAwqcl5gges2FF5p7B+OCysZ08HcrsA=
-github.com/squarescale/cloudresolver v0.0.0-20190824051432-de3eece6ac93/go.mod h1:OlBp0ZRBe4JBPHIW8cmfXBqAkWuiAS3u2KefzYG91II=
 github.com/squarescale/sshcommand v0.0.0-20190311110043-d5b1f8b62c87 h1:Of/Po1QUMenVZ7QjhetJLQ5I911d7GMNJNk8+jRxieE=
 github.com/squarescale/sshcommand v0.0.0-20190311110043-d5b1f8b62c87/go.mod h1:HZnRpCcUfAx3t9RaK/Gh5NS2jTGXYXcE+prfiG/hlt8=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=

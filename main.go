@@ -17,7 +17,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 
-	cr "github.com/squarescale/cloudresolver"
+	cr "github.com/obourdon/cloudresolver"
 	"github.com/squarescale/sshcommand"
 )
 
@@ -235,6 +235,10 @@ func main() {
 	viper.SetEnvKeyReplacer(strings.NewReplacer(".", "_"))
 	viper.AutomaticEnv()
 	err := viper.ReadInConfig()
+	if err != nil {
+		log.Errorf("could not find config file")
+	}
+
 	if viper.GetBool("debug") {
 		log.SetLevel(logrus.DebugLevel)
 	}
@@ -253,10 +257,6 @@ func main() {
 	}
 
 	log.Debugf("starting hssh ...")
-
-	if err != nil {
-		log.Errorf("could not find config file")
-	}
 
 	ssh, err := exec.LookPath("ssh")
 	if err != nil {
